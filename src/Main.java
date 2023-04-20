@@ -4,5 +4,11 @@ public class Main {
         dog1.run();
         System.out.println();
         System.out.println(dog1.printInfo());
+
+        System.out.println("----------------");
+        Rect rectangle = new Rect();
+        rectangle.setParameters(20, 15);
+        System.out.println(rectangle.calculatePerimeter());
+        System.out.println(rectangle.calculateSquare());
     }
 }
