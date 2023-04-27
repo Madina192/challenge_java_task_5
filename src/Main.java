@@ -5,10 +5,14 @@ public class Main {
         System.out.println();
         System.out.println(dog1.printInfo());
 
-        System.out.println("----------------");
+        System.out.println("TASK 6 ----------------");
         Rect rectangle = new Rect();
         rectangle.setParameters(20, 15);
         System.out.println(rectangle.calculatePerimeter());
         System.out.println(rectangle.calculateSquare());
+
+        System.out.println("TASK 7 ------------------");
+        Employee employee = new Employee("Madina", "android developer", 1200);
+        System.out.println(employee.printInfo(3));
     }
 }
